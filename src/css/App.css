@@ -1,0 +1,88 @@
+/* .app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: lightgreen;
+  border: 1px solid green;
+  border-radius: 3px;
+  font-size: 20px;
+  padding: 20px;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.animal-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 580px) {
+  .animal-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+} */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+}
+
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  font-size: 20px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.animal-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* gap between animal cards */
+}
+
+@media (max-width: 580px) {
+  .animal-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+strong {
+  font-weight: bold;
+  color: #555; /* Muted text color */
+}
+
+.instructions {
+  margin: 15px 0;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+}
